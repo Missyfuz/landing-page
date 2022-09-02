@@ -24,7 +24,7 @@ li {
     margin-right: 20px;
 }
 
-.header-menu-container {
+.header-link-text {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -35,13 +35,14 @@ a {
     text-decoration: none;
 }
 
-.main-text-container {
+.hero-text-container {
     display: flex;
     background-image: url(img/ash-lynx.jpg);
     background-size: cover;
     flex-wrap: wrap;
     padding: 20px;
     height: 600px;
+    align-items: center;
 }
 
 .first-background {
@@ -50,11 +51,20 @@ a {
 
 }
 
-.main-text {
-    width: 600px;
+.hero-text {
+    width: 500px;
+    height: 400px;
     color: #F9FAF8;
+    font-size: 18px;
+    margin-left: 6em;
 }
 
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 25px;
+}
 
 .main-ash {
     height: auto;
