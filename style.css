@@ -9,7 +9,6 @@
 
 .header-container {
     height: 40px;
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +20,7 @@
 }
 
 li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -32,6 +31,32 @@ li {
 }
 
 a {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
+}
+
+.main-text-container {
+    display: flex;
+    background-image: url(img/ash-lynx.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 600px;
+}
+
+.first-background {
+    background-image: url(img/ash-lynx.jpg);
+    background-size: cover;
+
+}
+
+.main-text {
+    width: 600px;
+    color: #F9FAF8;
+}
+
+
+.main-ash {
+    height: auto;
+    width: 500px;
 }
