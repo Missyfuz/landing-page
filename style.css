@@ -133,6 +133,7 @@ h2 {
     font-weight: lighter;
     color: #19202b;
     width: 700px;
+    text-shadow: 0 0 3px #E5E7EB;
 }
 
 .call-to-action-container {
