@@ -137,7 +137,7 @@ h2 {
 }
 
 .call-to-action-container {
-    background-color: #ffff;
+    background-color: #ffffec;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -147,8 +147,10 @@ h2 {
 .call-to-action {
     display: flex;
     width: 70%;
-    background-color: #b0c2f2;
+    background-color: #ffff6a;
+    border: 1px solid #000;
     border-radius: 10px;
+    color: #1F2937;
     padding: 20px;
     justify-content: space-between;
 }
@@ -161,9 +163,19 @@ h2 {
 .button2 {
     padding: 10px 20px;
     border-radius: 6px;
-    border: 2px solid black;
+    border: 2px solid #000;
     color: #191919;
     font-weight: bold;
     font-size: 16px;
     background-color: transparent;
+}
+
+.call1 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.call2 {
+    font-weight:lighter;
+    font-size: 14px;
 }
