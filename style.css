@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #1F2937;
 }
 
 .header-container {
@@ -75,4 +76,36 @@ button {
     color: #191919;
     font-weight: bold;
     font-size: 16px;
+}
+
+.random-container {
+    display: flex;
+    height: 350px;
+    background-color: #ffffec;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.random {
+    width: 180px;
+    
+}
+
+img {
+    height: auto;
+    width: 170px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.random p {
+    text-align: justify;
+    font-size: 18px;
 }
