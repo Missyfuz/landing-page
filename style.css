@@ -79,7 +79,7 @@ button {
 
 .random-container {
     display: flex;
-    height: 350px;
+    min-height: 350px;
     background-color: #ffffec;
     justify-content: center;
     column-gap: 50px;
@@ -114,3 +114,37 @@ h2 {
     text-align: justify;
     font-size: 18px;
 }
+
+.second-background {
+    background-image: url(img/ash-eiji.jpg);
+    background-size: cover;
+}
+
+.quote-text-container{
+    justify-content: center;
+    align-items: center;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #E5E7EB;
+    width: 600px;
+}
+
+.call-to-action-container {
+    background-color: #ffff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    width: 70%;
+    background-color: #b0c2f2;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
