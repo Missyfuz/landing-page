@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #1F2937;
 }
 
 .header-container {
@@ -84,11 +83,11 @@ button {
     background-color: #ffffec;
     justify-content: center;
     column-gap: 50px;
+    flex-wrap: wrap;
 }
 
 .random {
-    width: 180px;
-    
+    width: 180px;  
 }
 
 img {
@@ -98,7 +97,13 @@ img {
     margin-bottom: 15px;
 }
 
+.random p {
+    color: #1F2937;
+}
+
+
 h2 {
+    color: #1F2937;
     text-align: center;
     margin: 40px 0px;
     font-size: 36px;
