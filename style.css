@@ -116,19 +116,23 @@ h2 {
 }
 
 .second-background {
-    background-image: url(img/ash-eiji.jpg);
+    background-image: url(img/banana-fish-ep-12-5.png);
     background-size: cover;
+    background-position: center;
 }
 
 .quote-text-container{
     justify-content: center;
     align-items: center;
+    display: flex;
+    min-height: 500px;
 }
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #E5E7EB;
-    width: 600px;
+    font-weight: lighter;
+    color: #19202b;
+    width: 700px;
 }
 
 .call-to-action-container {
